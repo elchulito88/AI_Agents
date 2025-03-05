@@ -5,7 +5,7 @@ from agno.models.openai import OpenAIChat
 from firecrawl import FirecrawlApp
 import streamlit as st
 
-from config.config import openai, firecrawl
+# from config.config import openai, firecrawl
 
 class PropertyData(BaseModel):
     """Schema for property data extraction"""
